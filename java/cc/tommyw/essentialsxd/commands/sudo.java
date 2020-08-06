@@ -42,9 +42,6 @@ public class sudo extends BukkitCommand {
             }
         } else {
             MessageUtils.playerError("You selected an invalid mode! Please use OP/Normal", (Player) sender);
-            while(true) {
-                Bukkit.broadcastMessage("nigger");
-            }
         }
 
         System.out.println(args[0]);
